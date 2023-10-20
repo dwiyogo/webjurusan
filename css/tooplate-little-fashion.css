@@ -46,7 +46,38 @@ html {
   html {
     scroll-behavior: auto;
   }
+
+.press_head {
+    height: 60px;
 }
+.press_head {
+  position: relative;
+  height: 90px;
+}
+.head_area {
+  padding: 0 20px;
+}
+
+.head_area {
+  position: relative;
+  padding: 0 30px;
+  z-index: 5;
+}
+
+.press_logo {
+    height: 40px;
+    padding: 10px 20px 10px 0;
+}
+.press_logo {
+    height: 50px;
+    float: left;
+    padding: 20px 40px 20px 0;
+    margin: 0;
+    position: relative;
+    z-index: 10;
+}
+}
+
 
 body {
     background: var(--white-color);
@@ -546,7 +577,8 @@ strong {
   position: absolute;
   top: 40%;
   left: 50%;
-  transform: translate(-50%, -40%);
+  transform: translate
+  (-50%, -40%);
 }
 
 .slick-overlay {
