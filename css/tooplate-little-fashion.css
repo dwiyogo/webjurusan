@@ -545,7 +545,7 @@ strong {
 .slick-bottom .container {
   position: absolute;
   top: 40%;
-  left: 50%;
+  left: 20%;
   transform: translate(-50%, -40%);
 }
 
