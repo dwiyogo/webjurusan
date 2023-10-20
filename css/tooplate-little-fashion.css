@@ -12,7 +12,7 @@ https://www.tooplate.com/view/2127-little-fashion
 -----------------------------------------*/
 :root {
   --white-color:                #FFFFFF;
-  --primary-color:              #0000FF;
+  --primary-color:              #2f00ff;
   --section-bg-color:           #f0f8ff;
   --dark-color:                 #000000;
   --grey-color:                 #d0d1d1;
@@ -47,7 +47,6 @@ html {
     scroll-behavior: auto;
   }
 }
-
 
 body {
     background: var(--white-color);
@@ -547,8 +546,7 @@ strong {
   position: absolute;
   top: 40%;
   left: 50%;
-  transform: translate
-  (-50%, -40%);
+  transform: translate(-50%, -40%);
 }
 
 .slick-overlay {
